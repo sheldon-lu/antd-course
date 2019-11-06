@@ -9,7 +9,7 @@ const { Sider, Content } = Layout;
 
 function BasicLayout(props) {
   const pageTitle = () => {
-    return '知识-Umi Pro';
+    return 'Umi Pro';
   };
 
   const { children } = props;
@@ -35,13 +35,13 @@ function BasicLayout(props) {
                 <Menu.Item key="testPage">
                   <Link to="testPage">
                     <Icon type="video-camera" />
-                    <span>models传递数据</span>
+                    <span>传递数据页面</span>
                   </Link>
                 </Menu.Item>
                 <Menu.Item key="dataTransfer">
                   <Link to="dataTransfer">
                     <Icon type="user" />
-                    <span>学习数据流</span>
+                    <span>数据流页面</span>
                   </Link>
                 </Menu.Item>
               </Menu.SubMenu>

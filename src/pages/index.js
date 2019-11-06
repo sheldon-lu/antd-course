@@ -15,9 +15,9 @@ export default function () {
       <div className={styles.welcome} />
       <div className={styles.btns}>
         <Button type="primary" onClick={testClick} style={{ marginRight: 10 }}>
-            model传递数据页
+        传递数据页面
         </Button>
-        <Button type="primary" onClick={btnClick}>学习数据流</Button>
+        <Button type="primary" onClick={btnClick}>数据流页面</Button>
       </div>
     </React.Fragment>
   );

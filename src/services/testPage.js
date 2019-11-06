@@ -4,10 +4,10 @@ import request from '../utils/request';
 //   return request(`https://cdn.xgqfrms.xyz/json/badges.json`);
 // }
 
-export function shoppingWZ() {
+export function shoppingWZ2() {
   return { data: { data: ['天猫', '京东', '苏宁'] } };
 }
-export function shoppingWZ2() {
+export function shoppingWZ() {
   // const date = new Date();
   // const timer = date.getTime().toString();
   // console.log(request('/mock/shopping?t=' + timer));
